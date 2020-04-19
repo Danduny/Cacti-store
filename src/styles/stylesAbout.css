@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(255, 247, 248);
+  background-size: cover;
+  font-family: lato;
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+h3 {
+  text-align: block;
+  font-size: 19px;
+  color: blue;
+  margin-top: 320px;
+
+  padding-left: 1000px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 4em;
+  color: black;
+  margin-top: 55px;
+  margin-left: 40px;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+}
+
+.lead-btm {
+  color: brown;
+  margin-top: 55px;
+  font-size: 1.5rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.titl-abt {
+  color: green;
+}
+p.lead {
+  color: blue;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+  margin-top: 250px;
+}
+
+.img-fluid {
+    margin-top: 10px;
+}
+.content {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.box {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.125rem;
+    
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}

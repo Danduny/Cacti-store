@@ -1,0 +1,43 @@
+html{
+	height: 100%;
+}
+body{
+	background: url(/img/head.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: lato;
+	color: white;
+}
+
+del {
+    color: whitesmoke;
+}
+del span {
+    color: white;
+}
+#content{
+	text-align: center;
+	padding-top: 20%; 
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.btn {
+	opacity: 0.6;
+}
