@@ -1,0 +1,46 @@
+html{
+	height: 100%;
+}
+body{
+	background: url();
+	background-size: cover;
+	background-position: center;
+	font-family: lato;
+	color: white;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+} 
+
+.modal-content {
+	background: url("/img/sign/formSign.jpg")
+      center center / cover no-repeat;
+}
+
+.modal-header {
+	margin-left: 25px;
+}
+.form-check-label {
+	color: black;
+}
+
+.form-group {
+	text-align: center;
+}
+
+.form-control {
+	text-align: center;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 0rem!important;
+}
+.signButton {
+	border-radius: 30px;
+	width: 100px;
+	margin-left: 138px;
+	margin-top: 70px;
+}
