@@ -1,46 +1,62 @@
-html{
-	height: 100%;
-}
-body{
-	background: url();
-	background-size: cover;
-	background-position: center;
-	font-family: lato;
-	color: white;
-}
-.navbar-brand {
-    font-family: 'Pacifico', cursive;
-} 
-
 .modal-content {
 	background: url("/img/sign/formSign.jpg")
-      center center / cover no-repeat;
+      center center / cover no-repeat !important;
 }
-
+a.nav-link {
+	cursor: pointer !important;
+}
 .modal-header {
-	margin-left: 25px;
+	margin-left: 25px !important;
 }
 .form-check-label {
-	color: black;
+	color: black !important;
 }
 
 .form-group {
-	text-align: center;
+	text-align: center !important;
 }
 
 .form-control {
-	text-align: center;
-	-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 20px;
+	text-align: center !important;
+	-webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+	border-radius: 20px !important;
 }
 
 .mb-5, .my-5 {
     margin-bottom: 0rem!important;
 }
 .signButton {
-	border-radius: 30px;
-	width: 100px;
-	margin-left: 138px;
-	margin-top: 70px;
+	text-align: center !important;
+	border-radius: 30px !important;
+	background-color:rgb(143, 159, 188) !important;
+		opacity: 0.995 !important;
+		width: 110px !important;
+		margin: auto !important;
 }
+
+@media (min-width: 1200px) { 
+	.signButton {
+		width: 110px !important;
+		margin: auto !important;
+		opacity: 1;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+	#darkModalForm {
+		margin: auto;
+	}
+
+ }
+
+
+
+ @media (min-width: 768px) and (max-width: 991px) { 
+
+	.signButton {
+		width: 70px;
+	}
+
+  }
